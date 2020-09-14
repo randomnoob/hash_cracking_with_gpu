@@ -69,6 +69,35 @@ wget https://hashcat.net/files/hashcat-6.1.1.7z
 sudo apt install p7zip
 sudo p7zip -d hashcat-6.1.1.7z
 cd hashcat-6.1.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+/hashcat.bin -m 2500 -a 0 BinhMinh886.hccapx vietnamese_phones.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ls /usr/bin/ | grep -i hash			##check
 sudo cp hashcat.bin /usr/bin/
 sudo ln -s /usr/bin/hashcat.bin /usr/bin/hashcat	
