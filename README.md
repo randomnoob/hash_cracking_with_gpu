@@ -65,10 +65,10 @@ ls /usr/bin/ | grep -i hash
 Check hashcat files with the command and delete the files.
 
 ```bash
-wget https://hashcat.net/files/hashcat-5.1.0.7z
+wget https://hashcat.net/files/hashcat-6.1.1.7z
 sudo apt install p7zip
-sudo p7zip -d hashcat-5.1.0.7z
-cd hashcat-5.1.0
+sudo p7zip -d hashcat-6.1.1.7z
+cd hashcat-6.1.1
 ls /usr/bin/ | grep -i hash			##check
 sudo cp hashcat64.bin /usr/bin/
 sudo ln -s /usr/bin/hashcat64.bin /usr/bin/hashcat	
