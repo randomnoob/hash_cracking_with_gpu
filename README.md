@@ -70,8 +70,8 @@ sudo apt install p7zip
 sudo p7zip -d hashcat-6.1.1.7z
 cd hashcat-6.1.1
 ls /usr/bin/ | grep -i hash			##check
-sudo cp hashcat64.bin /usr/bin/
-sudo ln -s /usr/bin/hashcat64.bin /usr/bin/hashcat	
+sudo cp hashcat.bin /usr/bin/
+sudo ln -s /usr/bin/hashcat.bin /usr/bin/hashcat	
 sudo cp -Rv OpenCL/ /usr/bin/
 sudo cp hashcat.hcstat2 /usr/bin/
 sudo cp hashcat.hctune /usr/bin/
